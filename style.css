@@ -176,7 +176,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/bg4.jpg") no-repeat center;
+    background: url("images/Hero-2.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -394,6 +394,7 @@ section .title::after{
     content: "who with me";
 }
 .teams .carousel .card{
+    margin:auto;
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -696,3 +697,40 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+.container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+    margin-top: 20px;
+  
+  }
+
+  .button {
+    display: flex;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
