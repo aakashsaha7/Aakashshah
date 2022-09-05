@@ -734,3 +734,17 @@ footer span a:hover{
   .container {
     padding: 2px 16px;
   }
+
+  /* SlideShow */
+.Testimonials{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.center{
+    text-align: center;
+}
